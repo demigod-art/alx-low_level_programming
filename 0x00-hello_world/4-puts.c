@@ -1,4 +1,3 @@
-#!/bin/bash
 /*
  * File 4-put.c
  * Auth: Brennan D Baraban <375@Holbertonschool.com>
