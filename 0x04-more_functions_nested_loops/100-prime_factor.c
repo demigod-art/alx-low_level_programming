@@ -25,7 +25,7 @@ prime /= div;
 }
 }
 
-printf"(%ldn", prime);
+printf("%ldn", prime);
 
 return (0);
 }
