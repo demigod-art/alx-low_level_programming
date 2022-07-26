@@ -5,14 +5,23 @@
  * malloc_checked - Allocates memory using malloc.
  * @b: The number of bytes to be allocated.
  *
- * Return: A pointer to the allocated memory.
- */
-void *malloc_checked(unsigned int b)
+ * Return: A pointer to the all
+*/
+ar *create_array(unsigned int size, char c)
 {
-void *mem = malloc(b);
+	char *array;
+	unsigned int index;
 
-if (mem == NULL)
-exit(98);
+	if (size == 0)
+		return (NULL);
 
-return (mem);
+	array = malloc(sizeof(char) * size);
+
+	if (array == NULL)
+		return (NULL);
+
+	for (index = 0; index < size; index++)
+		array[index] = c;
+
+	return (array);
 }
