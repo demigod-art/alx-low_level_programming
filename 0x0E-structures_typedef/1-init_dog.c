@@ -10,10 +10,10 @@
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-dog.h if (d != NULL)
-dog.h {
-dog.h dog.h d->name = name;
-dog.h dog.h d->age = age;
-dog.h dog.h d->owner = owner;
-dog.h }
+	if (d != NULL)
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
