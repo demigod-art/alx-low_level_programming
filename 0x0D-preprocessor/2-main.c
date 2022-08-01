@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	printf("this is the present file: %d\n", __file__);
+	printf("%s\n", __FILE__);
 
 	return (0);
 }
